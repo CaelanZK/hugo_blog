@@ -1,5 +1,5 @@
-title = "我的全新 Hugo FixIt 网站"
-baseURL = "http://example.org/"
+title = "柚见小站"
+baseURL = "https://blog.useenet.cn"
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
@@ -46,6 +46,16 @@ theme = "FixIt"
     weight = 2
     [menu.main.params]
       icon = "fa-solid fa-th"
+  [[menu.main]]
+    identifier = "navigation"
+    pre = ""
+    post = ""
+    name = "导航 "
+    url = "/navigation/"
+    title = ""
+    weight = 2
+    [menu.main.params]
+      icon = "fa-solid fa-n"
   [[menu.main]]
     identifier = "tags"
     pre = ""
