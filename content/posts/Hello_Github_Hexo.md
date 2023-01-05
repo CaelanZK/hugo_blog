@@ -13,9 +13,11 @@ comment: false
 weight: 0
 
 tags:
-- 
+- Github
+- Hexo
+- Blog
 categories:
-- 
+- 运维
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

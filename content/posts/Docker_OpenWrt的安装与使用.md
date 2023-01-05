@@ -18,6 +18,7 @@ tags:
 - 斐讯
 - N1
 categories:
+- 捣鼓
 - 运维
 
 hiddenFromHomePage: false

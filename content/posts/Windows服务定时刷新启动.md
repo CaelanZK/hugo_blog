@@ -14,7 +14,6 @@ weight: 0
 
 tags:
 - 脚本
-- bat
 categories:
 - Windows
 
