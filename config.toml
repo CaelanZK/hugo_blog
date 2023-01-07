@@ -10,10 +10,6 @@ hasCJKLanguage = true
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "FixIt"
 
-[params]
-  # FixIt 主题版本
-  version = "0.2.16"
-
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -68,6 +64,16 @@ theme = "FixIt"
       icon = "fa-solid fa-tags"
 
 # Hugo 解析文档的配置
+
+[params]
+  # FixIt 主题版本
+  version = "0.2.16"
+  # 网站描述
+  description = "这是柚见（CaelanZK、Yuzumi）的个人知识管理界面，本知识库包含作者的学习笔记、工作记录、生活剪影以及常用工具列表等"
+  # 网站关键字
+  keywords = ["USeeNet", "Yuzumi", "柚见", "柚見", "Hugo", "FixIt"]
+
+
 [markup]
   # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
