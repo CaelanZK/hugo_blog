@@ -73,6 +73,16 @@ theme = "FixIt"
   # 网站关键字
   keywords = ["USeeNet", "Yuzumi", "柚见", "柚見", "Hugo", "FixIt"]
 
+  [params.header]
+    [params.header.title]
+      name = "USeeNet's Blog"
+
+  [params.home]
+    [params.home.profile]
+      subtitle = "开动前想好自己的目标，不要左想一出右想一出，到头来啥也没做成"
+
+
+
 
 [markup]
   # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
