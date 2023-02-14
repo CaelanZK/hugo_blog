@@ -180,10 +180,10 @@ seo:
    7. 如果您的`Tokengate`仅适用于在线商店，请确保商家了解将门控产品发布到其他渠道可能出现的问题，例如门规避或结账失败
 
 4. 商家管理员用户体验示例
-   1. ## Token collection search 代币收藏搜索
+   1. Token collection search 代币收藏搜索
       - 
        ![image.png](https://uss.useenet.cn/picgo/note/202302142008917.png)
-   2. ## Dynamic gate preview 动态门预览
+   2. Dynamic gate preview 动态门预览
       - 
       ![image.png](https://uss.useenet.cn/picgo/note/202302142009738.png)
 
