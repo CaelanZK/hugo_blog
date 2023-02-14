@@ -181,10 +181,8 @@ seo:
 
 4. 商家管理员用户体验示例
    1. Token collection search 代币收藏搜索
-      - 
-       ![image.png](https://uss.useenet.cn/picgo/note/202302142008917.png)
+      ![image.png](https://uss.useenet.cn/picgo/note/202302142008917.png)
    2. Dynamic gate preview 动态门预览
-      - 
       ![image.png](https://uss.useenet.cn/picgo/note/202302142009738.png)
 
 ### 开发区块链应用程序要求
