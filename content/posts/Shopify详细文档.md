@@ -66,7 +66,7 @@ seo:
 
 - Shopify支持加密货币进行支付（[加密货币 · Shopify 帮助中心](https://help.shopify.com/zh-CN/manual/payments/additional-payment-methods/cryptocurrency)）
 
-![image.png](https://uss.useenet.cn/picgo/note/202302132236563.png)
+    ![image.png](https://uss.useenet.cn/picgo/note/202302132236563.png)
 
 ### NFT发行
 
@@ -118,7 +118,6 @@ seo:
    2. 反应：则是通过`Tokengating`的结果，例如特定产品的折扣等
 2. Tokengating应用程序可以指导商家完成入口配置过程（包括定义入口要求和相应的反应），最后将他们与钱包连接体验一起展示给店面的客户
 3. 示例流程图：
-   1.
    ![image.png](https://uss.useenet.cn/picgo/note/202302141420235.png)
 
 ##### Tokengate应用职责
@@ -126,18 +125,15 @@ seo:
 1. Configuration 配置
    1. 该应用程序如何用于配置商户定义的`Tokengate`以及要求
    2. 图片示例
-      1.
    ![image.png](https://uss.useenet.cn/picgo/note/202302141704752.png)
 2. Presentation 演示
 3. `GateConfiguration` 详细信息（如状态和要求）如何呈现给客户。表示层也是客户连接钱包的地方
 4. 图片示例
-   1.
    ![image.png](https://uss.useenet.cn/picgo/note/202302141706478.png)
 5. Evaluation 评估
    1. 应用程序如何根据 `GateConfiguration` 检查客户的钱包内容并做出相应反应。例如，应用程序可能会通过打折做出反应。为确保您的`Tokengate`具有服务器端验证，您应该使用 Shopify Function
    2. 图片示例
-      1.
-      ![](https://uss.useenet.cn/picgo/note/202302141707473.png)
+       ![](https://uss.useenet.cn/picgo/note/202302141707473.png)
 
 #### 构建Tokengate应用程序
 
@@ -166,7 +162,6 @@ seo:
    1. 客户尚未连接钱包。`Tokengate`已锁定，`Tokengate`内容已隐藏
    2. 客户连接了一个没有有效令牌的钱包。`Tokengate`锁定，`Tokengate`内容已隐藏
    3. 客户已将钱包与有效令牌相关联。`Tokengate`被解锁，`Tokengate`内容被显示（购买表格）
-   4.
    ![image.png](https://uss.useenet.cn/picgo/note/202302141908133.png)
 
 3. 商家体验
@@ -199,7 +194,7 @@ seo:
    1. crypto.com
 4. 应用程序目前只支持 NFT 在Shopify 上的初级销售
 5. 应用程序在任何情况下都不应促进代表或有资格作为证券或其他受监管金融工具的 NFT 的销售或营销，或与证券或其他受监管金融工具相关的活动。
-6. 1. 应用程序必须确保没有二次版税（例如，非创作者版税）写入 NFT。
+6. 应用程序必须确保没有二次版税（例如，非创作者版税）写入 NFT。
 
 #### NFT分发应用程序要求
 
@@ -214,7 +209,7 @@ seo:
 
 - 任何包含一个或多个 NFT 变体的产品都必须使用产品元字段在产品对象中列出 NFT 变体 ID
 
-![image.png](https://uss.useenet.cn/picgo/note/202302131136311.png)
+    ![image.png](https://uss.useenet.cn/picgo/note/202302131136311.png)
 
 ##### NFT的分发
 
@@ -242,10 +237,10 @@ seo:
 
 - 任何通过 gate 添加或者打折的订单必须通过使用指定的元字段将订单项 ID 添加到订单对象来识别
 
-![image.png](https://uss.useenet.cn/picgo/note/202302131949977.png)
+    ![image.png](https://uss.useenet.cn/picgo/note/202302131949977.png)
 
 ##### 代币化产品元字段
 
 - 任何包含一个或多个 gated variants 的产品都必须使用产品元字段在产品对象中列出 gated variants ID
+    ![](https://uss.useenet.cn/picgo/note/202302131958312.png)
 
-![](https://uss.useenet.cn/picgo/note/202302131958312.png)
